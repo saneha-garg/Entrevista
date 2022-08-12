@@ -29,36 +29,38 @@ input[type="submit"]{
     font-family: sans-serif;
     padding: 10px;
 }
-.left{
- position: absolute;
- left: 34px;
- top: 20px;
- display:inline-block;
+.right{
+ 
+ left: 4px;
+    position: absolute;
+    right: 4px;
+    top: 10px;
+    display: inline-block;
+ 
  
 }
-.left img{
+.right img{
     width:28px;
 }
-.left span{
+.right span{
     color: white;
     font-size: 20px;
+   margin-right: 500px;
 }
-.right{
-position: absolute;
-right: 34px;
-top: 20px;
-display: inline-block;
 
-}
 .navbar{
     display:inline block;
     font-size: 20px;
+    background-color: black;
+    margin-top: 10px;
+    text-align: right;
+    position: fixed;
 }
 .navbar a{
     color: white;
     text-decoration: none;
     font-family: sans-serif;
-    padding: 34px 23px;
+    padding: 2px 40px;
 }
 .navbar a:hover , .navbar a.active{
 text-decoration: underline;
@@ -188,23 +190,24 @@ margin-left: 50px;
 font-family: sans-serif;
 }
 #endl{
-    box-sizing: border-box;
-    position: relative;
+   
+    margin-top: 60px;
     background-color: aquamarine;
     text-align: center;
     font-family: sans-serif;
-    padding: 100px;
-    margin-top: 150px;
+    padding: 50px;
+    height: 400px;
+    
   }  
   #endl input[type="submit"]{
     background-color: rgb(125, 203, 243);
     border-radius: 5px;
     width: 120px;
     height: 50px;
-   margin-left: 200px;
-   margin-top: 50px;
+   margin-left: 30px;
+   margin-top: 150px;
   }
  #endl p{
     color: black;
-   
+    margin-left: 100px;
   }
